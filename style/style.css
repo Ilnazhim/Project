@@ -39,6 +39,9 @@
     background-color: rgb(243, 243, 243);
 }
 
+h1 {
+    padding: 0px 0px 10px 0px;
+}
 #img_logo {
     width: 100px;
     height: 100px;
