@@ -88,3 +88,15 @@ h1 {
 .form-control {
     cursor: pointer;
 }
+
+
+.footer {
+    background-color: rgb(100, 95, 95);
+    margin-top: 20px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.footer h6 {
+    color: white;
+}
