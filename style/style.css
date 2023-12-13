@@ -22,8 +22,11 @@
     .container {
         width: 90%;
         margin: 0 auto;
-
     } 
+
+    .select-value {
+        font-size: 8px;
+    }
 }
 
 @media screen and (max-width:530px) 
@@ -31,8 +34,17 @@
     .container {
         width: 90%;
         margin: 0 auto;
-
-    } 
+    }
+    .form-select {
+        width: 200px;
+    }
+    
+    option {
+        width: 1000px;
+    }
+    .select-value {
+        font-size: 8px;
+    }
 }
 
 .header {
@@ -64,9 +76,15 @@ h1 {
 .alert {
     position: relative;
 }
-
+.about {
+    text-align: justify;
+}
 .alert:hover {
     box-shadow: 0 5px 10px;
     top: 5px;
+    /* cursor: pointer; */
+}
+
+.form-control {
     cursor: pointer;
 }
